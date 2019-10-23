@@ -1,18 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Exercice-4</title>
-        <meta charset="UTF-8" />
-    </head>
-    <body>
-      <form>
-        <p>Entrer votre nom, prénom et votre ville : </p>
-        <label for="lastname">Nom : </label><input type="text" name="lastname" id="lastname"/>
-            <label for="firstname">Prénom : </label><input type="text" name="firstname" id="firstname"/>
-            <label for="city">Ville : </label><input type="text" name="city" id="city"/>
-        <input type ="button"  id="boutton" value ="Valider" onclick="controle()">
-        <input type="reset" value="Reset">
-      </form>
-    </body>
+
+<head>
+  <title>Exercice_4</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div class="container">
+    <header>
+    </header>
+    <div class="row">
+
+      <div class="card col-8 offset-2 bg-light shadow ">
+
+        <div class="card-body text-center ">
+          <h1 class="card-title "><span class="badge badge-primary">Exercice 4 :</span></h1>
+          <form>
+            <p>Entrer votre nom, prénom et votre ville : </p>
+            <div class="col-12"><label for="lastname">Nom : </label><input type="text" name="lastname" id="lastname"/></div>
+            <div class="col-12"><label for="firstname">Prénom : </label><input type="text" name="firstname" id="firstname"/></div>
+            <div class="col-12"><label for="city">Ville : </label><input type="text" name="city" id="city"/></div>
+            <div class="col-12"><input type ="button"  id="boutton" value ="Valider" onclick="controle()">
+              <input type="reset" value="Reset"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer>
+      </footer>
+    </div>
+  </body>
   <script type="text/javascript" src="assets/js/index.js"></script>
-</html>
+  </html>
